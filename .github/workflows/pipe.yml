@@ -4,6 +4,6 @@ on: workflow_dispatch
 jobs:
   test-job:
     runs-on: ubuntu-latest
-      step:
+      steps:
         -name: print hello World
         run: echo "hello World"
