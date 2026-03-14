@@ -5,5 +5,5 @@ jobs:
   test-job:
     runs-on: ubuntu-latest
     steps:
-      -name: print hello World
+      - name: print hello World
         run: echo "hello World"
