@@ -10,10 +10,7 @@ jobs:
       - name: Print Hello World
         run: echo "Hello World"
         
-      - name: install java
-        uses: actions/setup-java@v5
+      - name: install python
+        uses: actions/setup-python@v6
         with:
-           distribution: 'temurin' # See 'Supported distributions' for available options
-           java-version: '17'
-
-      
+          python-version: '3.13' 
