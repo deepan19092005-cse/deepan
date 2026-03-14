@@ -15,3 +15,6 @@ jobs:
         with:
            distribution: 'temurin' # See 'Supported distributions' for available options
            java-version: '25'
+
+      - name: check version java
+        run: version --java
